@@ -1,0 +1,92 @@
+.combinatorial-analyzer {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #b3d9ff;
+}
+
+.calculator-inputs {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-group input,
+.input-group select {
+  padding: 8px;
+  border: 1px solid #b3d9ff;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #b3d9ff;
+  background: transparent;
+}
+
+.result {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #b3d9ff;
+}
+
+.result h3 {
+  margin-top: 0;
+  color: #b3d9ff;
+}
+
+.visualization {
+  margin-bottom: 20px;
+}
+
+.chart-container {
+  height: 400px;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.explanation {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.explanation h3 {
+  margin-top: 0;
+  color: #b3d9ff;
+}
+
+.formula {
+  font-family: 'Courier New', monospace;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px 0;
+  color: #b3d9ff;
+  border: 1px solid #b3d9ff;
+}
+
+@media (max-width: 768px) {
+  .calculator-inputs {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input-group {
+    width: 100%;
+  }
+  
+  .input-group input,
+  .input-group select {
+    flex: 1;
+  }
+} 
