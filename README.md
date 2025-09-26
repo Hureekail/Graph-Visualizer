@@ -14,8 +14,6 @@ Features interactive calculators for binomial coefficients, permutations, arrang
 - [React](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Recharts](https://recharts.org/)
-- [React Router](https://reactrouter.com/)
-- [React Icons](https://react-icons.github.io/react-icons/)
 
 ## Getting Started
 
